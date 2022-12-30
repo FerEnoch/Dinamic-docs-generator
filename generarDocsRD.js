@@ -1,6 +1,6 @@
 function generarDocsRD(e) {
     try {
-        const sheet = SpreadsheetApp.getActive().getSheetByName('YOUR_SPREADSHEET_NAME'),
+        const sheet = SpreadsheetApp.getActive().getSheetByName('YOUR_SHEET_NAME'),
             lastRow = sheet.getLastRow(),
             EXPTE = [
                 DATOS_EXPTE = {
