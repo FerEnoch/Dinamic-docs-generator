@@ -1,0 +1,2 @@
+# Google Apps Script - Dinamic Docs Generator
+Programa desarrollado en Google Workspace, y pensado para generar documentaciión legal/institucional de manera dinámica. Actualmente se encuentra en uso en la administración pública municipal de la ciudad de Santa Fe, Argentina.
