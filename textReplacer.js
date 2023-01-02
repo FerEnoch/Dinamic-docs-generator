@@ -10,7 +10,7 @@ function textReplacer(newDoc, EXPTE, procedimiento, typeofDoc, generoRedaccion, 
     newDocBody.replaceText('\{NUMERO_EXPTE\}', EXPTE[0].numero);
     newDocBody.replaceText('\{CARATULA_EXPTE\}', EXPTE[0].caratula);
 
-    const loteManz = EXPTE[2].lote_mz.replace(EXPTE[2].lote_mz[0], EXPTE[2].lote_mz[0].toLowerCase()).trim(),
+    let loteManz = EXPTE[2].lote_mz.replace(EXPTE[2].lote_mz[0], EXPTE[2].lote_mz[0].toLowerCase()).trim(),
         M = loteManz.search(/M/);
     if (M) loteManz = loteManz.replace('M', 'm');
 
